@@ -1,0 +1,22 @@
+vpc_name: "App-vpc"
+
+# VPC Range
+vpcCidr: '.../16'
+
+# Subnets Range
+PubSub1Cidr: .../24
+PubSub2Cidr: .../24
+PubSub3Cidr: .../24
+PrivSub1Cidr: .../24
+PrivSub2Cidr: .../24
+PrivSub3Cidr: .../24
+
+# Region Name
+region: "us-east-2"
+
+# Zone Names
+zone1: us-east-2a
+zone2: us-east-2b
+zone3: us-east-2c
+
+state: present
